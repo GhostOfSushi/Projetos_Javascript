@@ -5,8 +5,8 @@ const infoCarateres = document.getElementById("infoCarateres");
 const infoPalavras = document.getElementById("infoPalavras");
 const btnPublicar = document.getElementById("btnPublicar");
 const feedPreview = document.getElementById("feedPreview");
-
 const LIMITE = 140;
+env.FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true;
 
 // Atualiza contador, barra, palavras e estado do botão
 function atualizarInterface() {

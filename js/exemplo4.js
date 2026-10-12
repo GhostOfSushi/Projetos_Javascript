@@ -4,6 +4,7 @@ const btnAdicionar = document.getElementById("btnAdicionar");
 const listaElementos = document.getElementById("listaElementos");
 const resumoCarrinho = document.getElementById("resumoCarrinho");
 const btnLimpar = document.getElementById("btnLimpar");
+env.FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true;
 
 // ===== Estado da aplicação =====
 // Cada item: { id, nome, comprado }

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const numLimite = document.getElementById('numLimite');
     const saidaTabuada = document.getElementById('saidaTabuada');
     const resumoPares = document.getElementById('resumoPares');
+    env.FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true;
 
     btnGerar.addEventListener('click', gerarTabuada);
 

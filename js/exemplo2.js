@@ -6,6 +6,7 @@ const chkNumeros = document.getElementById("chkNumeros");
 const chkSimbolos = document.getElementById("chkSimbolos");
 const btnGerar = document.getElementById("btnGerar");
 const indicadorForca = document.getElementById("indicadorForca");
+env.FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true;
 
 // Conjuntos de caracteres
 const MINUSCULAS = "abcdefghijklmnopqrstuvwxyz";
